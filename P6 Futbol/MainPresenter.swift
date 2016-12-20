@@ -17,6 +17,6 @@ class MainPresenter {
         self.navigationController = navigationController;
         
         let homeViewController: HomeViewController = HomeViewController()
-        self.navigationController?.pushViewController(homeViewController, animated: false)
+        self.navigationController?.pushViewController(homeViewController, animated: true)
     }
 }
