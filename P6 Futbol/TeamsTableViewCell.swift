@@ -20,6 +20,10 @@ class TeamsTableViewCell: UITableViewCell {
         
     }
     
+    override func prepareForReuse() {
+        //aqui es donde hay que poner el label y la imagen a nil
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }

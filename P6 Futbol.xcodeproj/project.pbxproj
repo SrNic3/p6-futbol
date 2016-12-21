@@ -15,6 +15,12 @@
 		06119C141E086E8A00CAC106 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06119C131E086E8A00CAC106 /* MainPresenter.swift */; };
 		06119C161E08700800CAC106 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06119C151E08700800CAC106 /* HomeViewController.swift */; };
 		06119C181E0870F100CAC106 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06119C171E0870F100CAC106 /* HomeViewController.xib */; };
+		0648F20C1E0AD2D3000E87AB /* ClassifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648F20B1E0AD2D3000E87AB /* ClassifViewController.swift */; };
+		0648F20E1E0AD38D000E87AB /* ClassifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0648F20D1E0AD38D000E87AB /* ClassifViewController.xib */; };
+		0648F2101E0AD4EB000E87AB /* ClassifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648F20F1E0AD4EB000E87AB /* ClassifTableViewCell.swift */; };
+		0648F2121E0AD4FF000E87AB /* ClassifTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0648F2111E0AD4FF000E87AB /* ClassifTableViewCell.xib */; };
+		0648F2141E0AD889000E87AB /* ClassifPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648F2131E0AD889000E87AB /* ClassifPresenter.swift */; };
+		0648F2161E0AD8C3000E87AB /* ClassifInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648F2151E0AD8C3000E87AB /* ClassifInteractor.swift */; };
 		065243531E09982D008F6E73 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065243521E09982D008F6E73 /* TeamsViewController.swift */; };
 		065243551E09983B008F6E73 /* TeamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065243541E09983B008F6E73 /* TeamsViewController.xib */; };
 		065243571E0999C3008F6E73 /* TeamsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065243561E0999C2008F6E73 /* TeamsPresenter.swift */; };
@@ -36,6 +42,12 @@
 		06119C131E086E8A00CAC106 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		06119C151E08700800CAC106 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		06119C171E0870F100CAC106 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0648F20B1E0AD2D3000E87AB /* ClassifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifViewController.swift; sourceTree = "<group>"; };
+		0648F20D1E0AD38D000E87AB /* ClassifViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassifViewController.xib; sourceTree = "<group>"; };
+		0648F20F1E0AD4EB000E87AB /* ClassifTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifTableViewCell.swift; sourceTree = "<group>"; };
+		0648F2111E0AD4FF000E87AB /* ClassifTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassifTableViewCell.xib; sourceTree = "<group>"; };
+		0648F2131E0AD889000E87AB /* ClassifPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifPresenter.swift; sourceTree = "<group>"; };
+		0648F2151E0AD8C3000E87AB /* ClassifInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifInteractor.swift; sourceTree = "<group>"; };
 		065243521E09982D008F6E73 /* TeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 		065243541E09983B008F6E73 /* TeamsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamsViewController.xib; sourceTree = "<group>"; };
 		065243561E0999C2008F6E73 /* TeamsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsPresenter.swift; sourceTree = "<group>"; };
@@ -92,6 +104,7 @@
 		06119C0E1E086DD900CAC106 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0648F2171E0ADA8D000E87AB /* Classification */,
 				0652434E1E0997FE008F6E73 /* Teams */,
 				06119C0F1E086DF600CAC106 /* Home */,
 			);
@@ -129,6 +142,43 @@
 			children = (
 			);
 			name = Interactor;
+			sourceTree = "<group>";
+		};
+		0648F2171E0ADA8D000E87AB /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				0648F21A1E0ADAAB000E87AB /* View */,
+				0648F2191E0ADAA1000E87AB /* Presenter */,
+				0648F2181E0ADA9A000E87AB /* Interactor */,
+			);
+			name = Classification;
+			sourceTree = "<group>";
+		};
+		0648F2181E0ADA9A000E87AB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0648F2151E0AD8C3000E87AB /* ClassifInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		0648F2191E0ADAA1000E87AB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0648F2131E0AD889000E87AB /* ClassifPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		0648F21A1E0ADAAB000E87AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0648F20B1E0AD2D3000E87AB /* ClassifViewController.swift */,
+				0648F20D1E0AD38D000E87AB /* ClassifViewController.xib */,
+				0648F20F1E0AD4EB000E87AB /* ClassifTableViewCell.swift */,
+				0648F2111E0AD4FF000E87AB /* ClassifTableViewCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		0652434E1E0997FE008F6E73 /* Teams */ = {
@@ -237,11 +287,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				06119C071E086C4800CAC106 /* LaunchScreen.storyboard in Resources */,
+				0648F2121E0AD4FF000E87AB /* ClassifTableViewCell.xib in Resources */,
 				06119C041E086C4800CAC106 /* Assets.xcassets in Resources */,
 				06119C021E086C4800CAC106 /* Main.storyboard in Resources */,
 				065243601E09B98B008F6E73 /* TeamsTableViewCell.xib in Resources */,
 				06119C181E0870F100CAC106 /* HomeViewController.xib in Resources */,
 				065243551E09983B008F6E73 /* TeamsViewController.xib in Resources */,
+				0648F20E1E0AD38D000E87AB /* ClassifViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +305,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				06119BFF1E086C4800CAC106 /* ViewController.swift in Sources */,
+				0648F2101E0AD4EB000E87AB /* ClassifTableViewCell.swift in Sources */,
+				0648F2161E0AD8C3000E87AB /* ClassifInteractor.swift in Sources */,
 				065243591E099FB7008F6E73 /* TeamsInteractor.swift in Sources */,
+				0648F20C1E0AD2D3000E87AB /* ClassifViewController.swift in Sources */,
+				0648F2141E0AD889000E87AB /* ClassifPresenter.swift in Sources */,
 				06119C141E086E8A00CAC106 /* MainPresenter.swift in Sources */,
 				065243571E0999C3008F6E73 /* TeamsPresenter.swift in Sources */,
 				065243531E09982D008F6E73 /* TeamsViewController.swift in Sources */,

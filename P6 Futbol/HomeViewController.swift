@@ -19,6 +19,10 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func touchClasification() {
+        
+        let classifViewController: ClassifViewController = ClassifViewController()
+        navigationController?.pushViewController(classifViewController, animated: true)
+        
     }
     
     

@@ -28,11 +28,12 @@ class TeamsViewController: UIViewController, UITableViewDataSource {
         interactor.presenter = presenter
         presenter?.interactor = interactor
         
-        uiTableView.register(TeamsTableViewCell.self, forCellReuseIdentifier: "cell")
+        self.uiTableView.register(TeamsTableViewCell.self, forCellReuseIdentifier: "cell")
         let nib: UINib = UINib.init(nibName: "TeamsTableViewCell", bundle: nil)
-        uiTableView.register(nib, forCellReuseIdentifier: "cell")
+        self.uiTableView.register(nib, forCellReuseIdentifier: "cell")
  
         presenter?.getTeams()
+    
     }
     
     func refreshTableView(teams:[[String:String]]) {
