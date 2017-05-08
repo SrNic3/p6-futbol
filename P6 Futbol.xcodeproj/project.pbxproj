@@ -12,6 +12,23 @@
 		06119C021E086C4800CAC106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06119C001E086C4800CAC106 /* Main.storyboard */; };
 		06119C041E086C4800CAC106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06119C031E086C4800CAC106 /* Assets.xcassets */; };
 		06119C071E086C4800CAC106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06119C051E086C4800CAC106 /* LaunchScreen.storyboard */; };
+		06119C141E086E8A00CAC106 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06119C131E086E8A00CAC106 /* MainPresenter.swift */; };
+		06119C161E08700800CAC106 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06119C151E08700800CAC106 /* HomeViewController.swift */; };
+		06119C181E0870F100CAC106 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06119C171E0870F100CAC106 /* HomeViewController.xib */; };
+		0648F20C1E0AD2D3000E87AB /* ClassifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648F20B1E0AD2D3000E87AB /* ClassifViewController.swift */; };
+		0648F20E1E0AD38D000E87AB /* ClassifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0648F20D1E0AD38D000E87AB /* ClassifViewController.xib */; };
+		0648F2101E0AD4EB000E87AB /* ClassifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648F20F1E0AD4EB000E87AB /* ClassifTableViewCell.swift */; };
+		0648F2121E0AD4FF000E87AB /* ClassifTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0648F2111E0AD4FF000E87AB /* ClassifTableViewCell.xib */; };
+		0648F2141E0AD889000E87AB /* ClassifPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648F2131E0AD889000E87AB /* ClassifPresenter.swift */; };
+		0648F2161E0AD8C3000E87AB /* ClassifInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648F2151E0AD8C3000E87AB /* ClassifInteractor.swift */; };
+		065243531E09982D008F6E73 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065243521E09982D008F6E73 /* TeamsViewController.swift */; };
+		065243551E09983B008F6E73 /* TeamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065243541E09983B008F6E73 /* TeamsViewController.xib */; };
+		065243571E0999C3008F6E73 /* TeamsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065243561E0999C2008F6E73 /* TeamsPresenter.swift */; };
+		065243591E099FB7008F6E73 /* TeamsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065243581E099FB7008F6E73 /* TeamsInteractor.swift */; };
+		0652435C1E09A023008F6E73 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652435B1E09A023008F6E73 /* Resources.swift */; };
+		0652435E1E09A062008F6E73 /* RequestFromResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652435D1E09A062008F6E73 /* RequestFromResource.swift */; };
+		065243601E09B98B008F6E73 /* TeamsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0652435F1E09B98B008F6E73 /* TeamsTableViewCell.xib */; };
+		065243621E09B9A2008F6E73 /* TeamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065243611E09B9A2008F6E73 /* TeamsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +39,23 @@
 		06119C031E086C4800CAC106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06119C061E086C4800CAC106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06119C081E086C4800CAC106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06119C131E086E8A00CAC106 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		06119C151E08700800CAC106 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		06119C171E0870F100CAC106 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0648F20B1E0AD2D3000E87AB /* ClassifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifViewController.swift; sourceTree = "<group>"; };
+		0648F20D1E0AD38D000E87AB /* ClassifViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassifViewController.xib; sourceTree = "<group>"; };
+		0648F20F1E0AD4EB000E87AB /* ClassifTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifTableViewCell.swift; sourceTree = "<group>"; };
+		0648F2111E0AD4FF000E87AB /* ClassifTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassifTableViewCell.xib; sourceTree = "<group>"; };
+		0648F2131E0AD889000E87AB /* ClassifPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifPresenter.swift; sourceTree = "<group>"; };
+		0648F2151E0AD8C3000E87AB /* ClassifInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifInteractor.swift; sourceTree = "<group>"; };
+		065243521E09982D008F6E73 /* TeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		065243541E09983B008F6E73 /* TeamsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamsViewController.xib; sourceTree = "<group>"; };
+		065243561E0999C2008F6E73 /* TeamsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsPresenter.swift; sourceTree = "<group>"; };
+		065243581E099FB7008F6E73 /* TeamsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsInteractor.swift; sourceTree = "<group>"; };
+		0652435B1E09A023008F6E73 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		0652435D1E09A062008F6E73 /* RequestFromResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFromResource.swift; sourceTree = "<group>"; };
+		0652435F1E09B98B008F6E73 /* TeamsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamsTableViewCell.xib; sourceTree = "<group>"; };
+		065243611E09B9A2008F6E73 /* TeamsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +90,141 @@
 			children = (
 				06119BFC1E086C4800CAC106 /* AppDelegate.swift */,
 				06119BFE1E086C4800CAC106 /* ViewController.swift */,
+				06119C131E086E8A00CAC106 /* MainPresenter.swift */,
 				06119C001E086C4800CAC106 /* Main.storyboard */,
+				0652435A1E09A006008F6E73 /* Resources */,
+				06119C0E1E086DD900CAC106 /* Views */,
 				06119C031E086C4800CAC106 /* Assets.xcassets */,
 				06119C051E086C4800CAC106 /* LaunchScreen.storyboard */,
 				06119C081E086C4800CAC106 /* Info.plist */,
 			);
 			path = "P6 Futbol";
+			sourceTree = "<group>";
+		};
+		06119C0E1E086DD900CAC106 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0648F2171E0ADA8D000E87AB /* Classification */,
+				0652434E1E0997FE008F6E73 /* Teams */,
+				06119C0F1E086DF600CAC106 /* Home */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		06119C0F1E086DF600CAC106 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				06119C121E086E1100CAC106 /* Interactor */,
+				06119C111E086E0900CAC106 /* Presenter */,
+				06119C101E086DFF00CAC106 /* View */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		06119C101E086DFF00CAC106 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06119C151E08700800CAC106 /* HomeViewController.swift */,
+				06119C171E0870F100CAC106 /* HomeViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		06119C111E086E0900CAC106 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		06119C121E086E1100CAC106 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		0648F2171E0ADA8D000E87AB /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				0648F21A1E0ADAAB000E87AB /* View */,
+				0648F2191E0ADAA1000E87AB /* Presenter */,
+				0648F2181E0ADA9A000E87AB /* Interactor */,
+			);
+			name = Classification;
+			sourceTree = "<group>";
+		};
+		0648F2181E0ADA9A000E87AB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0648F2151E0AD8C3000E87AB /* ClassifInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		0648F2191E0ADAA1000E87AB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0648F2131E0AD889000E87AB /* ClassifPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		0648F21A1E0ADAAB000E87AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0648F20B1E0AD2D3000E87AB /* ClassifViewController.swift */,
+				0648F20D1E0AD38D000E87AB /* ClassifViewController.xib */,
+				0648F20F1E0AD4EB000E87AB /* ClassifTableViewCell.swift */,
+				0648F2111E0AD4FF000E87AB /* ClassifTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0652434E1E0997FE008F6E73 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				065243511E099818008F6E73 /* Interactor */,
+				0652434F1E09980A008F6E73 /* Presenter */,
+				065243501E099810008F6E73 /* View */,
+			);
+			name = Teams;
+			sourceTree = "<group>";
+		};
+		0652434F1E09980A008F6E73 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				065243561E0999C2008F6E73 /* TeamsPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		065243501E099810008F6E73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				065243521E09982D008F6E73 /* TeamsViewController.swift */,
+				065243541E09983B008F6E73 /* TeamsViewController.xib */,
+				065243611E09B9A2008F6E73 /* TeamsTableViewCell.swift */,
+				0652435F1E09B98B008F6E73 /* TeamsTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		065243511E099818008F6E73 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				065243581E099FB7008F6E73 /* TeamsInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		0652435A1E09A006008F6E73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0652435B1E09A023008F6E73 /* Resources.swift */,
+				0652435D1E09A062008F6E73 /* RequestFromResource.swift */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +287,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				06119C071E086C4800CAC106 /* LaunchScreen.storyboard in Resources */,
+				0648F2121E0AD4FF000E87AB /* ClassifTableViewCell.xib in Resources */,
 				06119C041E086C4800CAC106 /* Assets.xcassets in Resources */,
 				06119C021E086C4800CAC106 /* Main.storyboard in Resources */,
+				065243601E09B98B008F6E73 /* TeamsTableViewCell.xib in Resources */,
+				06119C181E0870F100CAC106 /* HomeViewController.xib in Resources */,
+				065243551E09983B008F6E73 /* TeamsViewController.xib in Resources */,
+				0648F20E1E0AD38D000E87AB /* ClassifViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +305,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				06119BFF1E086C4800CAC106 /* ViewController.swift in Sources */,
+				0648F2101E0AD4EB000E87AB /* ClassifTableViewCell.swift in Sources */,
+				0648F2161E0AD8C3000E87AB /* ClassifInteractor.swift in Sources */,
+				065243591E099FB7008F6E73 /* TeamsInteractor.swift in Sources */,
+				0648F20C1E0AD2D3000E87AB /* ClassifViewController.swift in Sources */,
+				0648F2141E0AD889000E87AB /* ClassifPresenter.swift in Sources */,
+				06119C141E086E8A00CAC106 /* MainPresenter.swift in Sources */,
+				065243571E0999C3008F6E73 /* TeamsPresenter.swift in Sources */,
+				065243531E09982D008F6E73 /* TeamsViewController.swift in Sources */,
+				065243621E09B9A2008F6E73 /* TeamsTableViewCell.swift in Sources */,
+				0652435E1E09A062008F6E73 /* RequestFromResource.swift in Sources */,
+				0652435C1E09A023008F6E73 /* Resources.swift in Sources */,
 				06119BFD1E086C4800CAC106 /* AppDelegate.swift in Sources */,
+				06119C161E08700800CAC106 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +479,7 @@
 				06119C0D1E086C4800CAC106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
